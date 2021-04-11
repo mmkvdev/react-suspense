@@ -5,10 +5,12 @@ import Loader from "react-loader-spinner";
 const ToggleLoader = () => {
     return (
         <Loader
+            className="loader-container"
             type="ThreeDots"
-            color="white"
+            color="black"
             height={100}
             width={100}
+            timeout={1}
         />
     );
 }
